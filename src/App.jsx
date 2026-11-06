@@ -1,6 +1,7 @@
 import Header from './components/Header/Header.jsx';
 import CoreConcept from './components/CoreConcept/CoreConcept.jsx';
 import { CORE_CONCEPTS } from './data.js';
+import Examples from './components/Examples/Examples.jsx';
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
             ))}
           </ul>
         </section>
+        <Examples />
       </main>
     </div>
   );
